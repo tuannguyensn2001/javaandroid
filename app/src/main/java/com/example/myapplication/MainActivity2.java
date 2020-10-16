@@ -55,7 +55,7 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 int x = Integer.parseInt(first.getText().toString());
                 int y = Integer.parseInt(second.getText().toString());
-                ketqua=x-y;
+                ketqua=x-y+10;
                 result.setText(ketqua+"");
 
             }
